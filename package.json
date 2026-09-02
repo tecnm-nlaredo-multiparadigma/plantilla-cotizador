@@ -1,0 +1,19 @@
+{
+  "name": "cotizador-cruce-fronterizo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prueba": "vitest run",
+    "prueba:ver": "vitest",
+    "tipos": "tsc --noEmit",
+    "lint": "eslint .",
+    "verificar": "npm run tipos && npm run lint && npm run prueba"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "typescript": "^5.6.0",
+    "typescript-eslint": "^8.11.0",
+    "vitest": "^2.1.0"
+  }
+}
