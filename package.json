@@ -2,6 +2,9 @@
   "name": "cotizador-cruce-fronterizo",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "prueba": "vitest run",
     "prueba:ver": "vitest",

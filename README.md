@@ -67,8 +67,11 @@ Cada carpeta llega cuando llega su unidad. No las crees vacias.
 ## Tu variante
 
 `src/reglas.ts` trae la variante de **ejemplo**, que no es la de tu equipo.
-Sustituirla por la que les toco en `variantes-tarifarias.md` del repositorio del curso
-es parte de la entrega de la unidad 1, y las pruebas hay que rehacerlas con sus numeros.
+Sustituirla por la que les toco es parte de la entrega de la unidad 1, y las pruebas
+hay que rehacerlas con sus numeros.
+
+Tu variante se publica en `variantes-tarifarias.md` del repositorio del curso **en la
+semana 3**, cuando esten definidas las parejas. Mientras tanto trabajas con la de ejemplo.
 
 ## Alcance: cada subsistema es pequeno a proposito
 

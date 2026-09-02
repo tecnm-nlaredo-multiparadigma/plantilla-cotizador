@@ -18,4 +18,4 @@ Cierra #
 - [ ] `npm run verificar` pasa en local
 - [ ] El PR esta ligado a un issue
 - [ ] Los mensajes de commit siguen Conventional Commits
-- [ ] Solicité revisión a la persona que me toca en el anillo
+- [ ] Solicité revisión a mi pareja
