@@ -1,21 +1,20 @@
-## Que resuelve
+## Qué resuelve
 
-<!-- Una o dos lineas. El PROPOSITO del cambio, no la lista de archivos tocados. -->
+<!-- Una o dos líneas. El PROPÓSITO del cambio, no la lista de archivos tocados. -->
 
 Cierra #
 
-## Como lo verifico
+## Cómo lo verifico
 
-<!-- Que prueba lo cubre. Debe fallar sin este cambio. -->
+<!-- Qué prueba lo cubre. Debe fallar sin este cambio. -->
 
-## Lo que descarte
+## Lo que descarté
 
-<!-- Si usaste IA: que te propuso que NO aceptaste, y por que.
+<!-- Si usaste IA: qué te propuso que NO aceptaste, y por qué.
      Si no usaste IA, escribe "no apliqué IA en este cambio". -->
 
 ---
 
 - [ ] `npm run verificar` pasa en local
-- [ ] El PR esta ligado a un issue
+- [ ] El PR está ligado a un issue
 - [ ] Los mensajes de commit siguen Conventional Commits
-- [ ] Solicité revisión a mi pareja

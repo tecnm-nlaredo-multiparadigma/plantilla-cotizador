@@ -1,23 +1,20 @@
-// Linting como infraestructura del oficio, desde la semana 1.
-// Reglas normales de la industria. El preset FUNCIONAL (immutable-data, no-let,
-// no-loop-statements) NO va aqui: llega hasta el cierre del proyecto, como
-// transferencia de lo que ya vivieron en Elixir.
+// Configuración base del curso. NO incluye todavía las reglas de inmutabilidad:
+// esas se encienden hasta la semana 15, cuando ya vivieron la restricción en Elixir.
 import js from '@eslint/js';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-  { ignores: ['node_modules', 'dist', 'coverage'] },
   js.configs.recommended,
   ...tseslint.configs.recommended,
   {
     rules: {
-      eqeqeq: ['error', 'always'],
-      'no-param-reassign': 'error',
-      'prefer-const': 'error',
+      'eqeqeq': ['error', 'always'],           // nada de == : la coerción esconde defectos
+      'no-param-reassign': 'error',            // no reasignar parámetros
+      'prefer-const': 'error',                 // si no cambia, que no sea let
       'no-var': 'error',
       '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
-      '@typescript-eslint/no-explicit-any': 'error',
-      '@typescript-eslint/switch-exhaustiveness-check': 'off'
+      '@typescript-eslint/no-explicit-any': 'error'
     }
-  }
+  },
+  { ignores: ['node_modules', 'dist'] }
 );
